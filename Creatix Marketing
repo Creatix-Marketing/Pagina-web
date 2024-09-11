@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Romina Villafañe Castillo - Portfolio y Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f0f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffccd5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #a63950;
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #a63950;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #f08080;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #a63950;
+            border-bottom: 2px solid #f08080;
+            padding-bottom: 10px;
+        }
+
+        p, ul {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffccd5;
+            color: #a63950;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a63950;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .contact-button:hover {
+            background-color: #f08080;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Romina Villafañe Castillo</h1>
+        <p>Portfolio Profesional & Blog Personal</p>
+    </header>
+
+    <nav>
+        <a href="#acerca">Acerca de Mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="acerca">
+        <h2>Acerca de Mí</h2>
+        <p>¡Hola! Soy Romina Villafañe Castillo, Community Manager y creadora de contenido digital. Me especializo en marketing digital y redes sociales, con una pasión por ayudar a negocios a mejorar su presencia en línea y conectar con sus audiencias. Este espacio es donde comparto mis proyectos y pensamientos en mi blog personal.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><strong>Creatix Marketing:</strong> Agencia de marketing digital especializada en SEO, SEM, y gestión de redes sociales para PYMEs.</li>
+            <li><strong>D+D Amoblamientos:</strong> Estrategia de marketing digital para una fábrica de muebles a medida.</li>
+            <li><strong>ES Real Estate:</strong> Gestión de redes y creación de contenido para un Realtor en Miami, especializado en propiedades para inversores argentinos.</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Gestión de redes sociales (Instagram, Facebook, LinkedIn)</li>
+            <li>SEO y SEM</li>
+            <li>Marketing de contenidos</li>
+            <li>Copywriting creativo</li>
+            <li>Creación de estrategias de marketing digital</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto en mente o simplemente quieres saludar? ¡No dudes en contactarme!</p>
+        <a href="mailto:romina@example.com" class="contact-button">Contáctame</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Romina Villafañe Castillo - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
